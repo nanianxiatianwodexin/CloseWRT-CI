@@ -7,10 +7,10 @@ on:
   workflow_dispatch:
     inputs:
       SOURCE:
-        default: 'coolsnowwolf/lede'
+        default: 'hanwckf/immortalwrt-mt798x'
         required: true
         type: choice
-        options: [coolsnowwolf/lede]
+        options: [hanwckf/immortalwrt-mt798x, padavanonly/immortalwrt-mt798x, Aabandon/immortalwrt-mt798x]
       BRANCH:
         default: 'openwrt-21.02'
         required: true
